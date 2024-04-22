@@ -45,3 +45,77 @@ FROM
     `car_dekho`
 WHERE
     `fuel` = 'Diesel' AND `year` = 2020;
+
+-- 7. Clint requested a car dealer agent how many petrol cars will there be in 2020 ?
+
+SELECT
+    COUNT(*) AS total_petrol_car_in_2020
+FROM
+    `cars_dekho`
+WHERE
+    `year` = 2020 AND `fuel` = 'Petrol';
+
+-- 8. The manager told the employee to give a print all the fuel cars ( petrol,diesel and cng ) come by all year.
+
+SELECT
+    `year`,
+    `fuel`,
+    COUNT(*) AS total_car
+FROM
+    `car_dekho`
+WHERE
+    `fuel` IN('Petrol', 'Diesel', 'Cng')
+GROUP BY
+    `year`,
+    `fuel`
+ORDER BY
+    `year`
+DESC;
+
+-- 9. Manager said there were more than 100 cars in a given year, which year had more than 100 cars ?
+
+SELECT
+    `year`,
+    COUNT(*) AS count
+FROM
+    `car_dekho`
+GROUP BY
+    `year`
+HAVING
+    COUNT(*) > 100
+ORDER BY
+    `year`
+DESC;
+
+-- 10. Manager said there were more than 100 cars in a given year, which year had less than 100 cars ?
+
+SELECT
+    `year`,
+    COUNT(*) AS count
+FROM
+    `car_dekho`
+GROUP BY
+    `year`
+HAVING
+    COUNT(*) < 100
+ORDER BY
+    `year`
+DESC;
+
+-- 11. Manager said to the employee all cars count details between 2015 and 2023 we need a complite list.
+
+SELECT
+    COUNT(*) AS count
+FROM
+    `car_dekho`
+WHERE
+    `year` BETWEEN 2015 AND 2023;
+
+-- 12. The manager said to the employee all cars details between 2015 and 2023 we need a complite list.
+
+SELECT
+    *
+FROM
+    `car_dekho`
+WHERE
+    `year` BETWEEN 2015 AND 2023;
