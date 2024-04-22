@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cars`
+-- Table structure for table `car_dekho`
 --
 
 CREATE TABLE `car_dekho` (
@@ -44,10 +44,10 @@ CREATE TABLE `car_dekho` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `cars`
+-- Dumping data for table `car_dekho`
 --
 
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 (' Maruti Alto 800 LXI Opt', '2023', '410000', '10000', 'Petrol', 'Individual', ' Manual', 'First Owner', '19.03 kmpl', '999 CC', '71.01bhp', '96Nm', '5'),
 (' Skoda Slavia 1.0 TSI Ambition', '2023', '1350000', '10000', 'Petrol', 'Individual', ' Manual', 'First Owner', '14.08 kmpl', '1956 CC', '167.67bhp', '350nm', '5'),
 (' BMW 3 Series Gran Limousine 320Ld Luxury Line', '2023', '5800000', '1000', 'Diesel', 'Dealer', ' Automatic', 'First Owner', '18.15 kmpl', '998 CC', '118.35bhp', '172Nm', '5'),
@@ -342,7 +342,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Hyundai Grand i10 Nios Sportz', '2019', '550000', '4701', 'Petrol', 'Trustmark Dealer', 'Manual', 'First Owner', '20.7 kmpl', '1197 CC', '81.86 bhp', '113.75Nm@ 4000rpm', '5'),
 ('Hyundai i20 1.2 Asta', '2019', '721000', '9400', 'Petrol', 'Dealer', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 Active S Petrol', '2019', '800000', '5000', 'Petrol', 'Individual', 'Manual', 'First Owner', '17.19 kmpl', '1197 CC', '81.86 bhp', '114.73Nm@ 4000rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Hyundai i20 Active S Petrol', '2019', '620000', '13000', 'Petrol', 'Individual', 'Manual', 'First Owner', '17.19 kmpl', '1197 CC', '81.86 bhp', '114.73Nm@ 4000rpm', '5'),
 ('Hyundai i20 Active SX Petrol', '2019', '650000', '10000', 'Petrol', 'Individual', 'Manual', 'First Owner', '17.19 kmpl', '1197 CC', '81.86 bhp', '114.73Nm@ 4000rpm', '5'),
 ('Hyundai i20 Active SX Petrol', '2019', '700000', '20000', 'Petrol', 'Individual', 'Manual', 'First Owner', '17.19 kmpl', '1197 CC', '81.86 bhp', '114.73Nm@ 4000rpm', '5'),
@@ -642,7 +642,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Renault Triber RXZ', '2019', '786000', '7720', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '71 bhp', '96Nm@ 3500rpm', '7'),
 ('Renault Triber RXZ BSIV', '2019', '675000', '5000', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '72 bhp', '96Nm@ 3500rpm', '7'),
 ('Renault Triber RXZ BSIV', '2019', '650000', '5000', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '72 bhp', '96Nm@ 3500rpm', '7');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Renault Triber RXZ BSIV', '2019', '675000', '5000', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '72 bhp', '96Nm@ 3500rpm', '7'),
 ('Renault Triber RXZ BSIV', '2019', '700000', '6500', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '72 bhp', '96Nm@ 3500rpm', '7'),
 ('Renault Triber RXZ BSIV', '2019', '700000', '6500', 'Petrol', 'Individual', 'Manual', 'First Owner', '20.0 kmpl', '999 CC', '72 bhp', '96Nm@ 3500rpm', '7'),
@@ -934,7 +934,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Hyundai i20 1.2 Magna Executive', '2018', '650000', '62841', 'Petrol', 'Trustmark Dealer', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 1.2 Spotz', '2018', '570000', '25000', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 1.2 Spotz', '2018', '610000', '15000', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Hyundai i20 1.2 Spotz', '2018', '570000', '25000', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 1.2 Spotz', '2018', '600000', '40000', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 1.2 Spotz', '2018', '655000', '19500', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
@@ -1236,7 +1236,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Maruti Swift Dzire LDI', '2018', '550000', '120000', 'Diesel', 'Individual', 'Manual', 'First Owner', '28.4 kmpl', '1248 CC', '74.02 bhp', '190Nm@ 2000rpm', '5'),
 ('Maruti Swift Dzire LXI', '2018', '611000', '9000', 'Petrol', 'Dealer', 'Manual', 'First Owner', '19.1 kmpl', '1197 CC', '85.8 bhp', '114Nm@ 4000rpm', '5'),
 ('Maruti Swift Dzire LXI', '2018', '611000', '9000', 'Petrol', 'Dealer', 'Manual', 'First Owner', '19.1 kmpl', '1197 CC', '85.8 bhp', '114Nm@ 4000rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Maruti Swift Dzire LXI 1.2 BS IV', '2018', '550000', '5000', 'Petrol', 'Individual', 'Manual', 'First Owner', '22.0 kmpl', '1197 CC', '81.80 bhp', '113Nm@ 4200rpm', '5'),
 ('Maruti Swift Dzire Tour LDI', '2018', '580000', '120000', 'Diesel', 'Individual', 'Manual', 'First Owner', '23.4 kmpl', '1248 CC', '74 bhp', '190Nm@ 2000rpm', '5'),
 ('Maruti Swift Dzire Tour S CNG', '2018', '455000', '100000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '19.0 kmpl', '1197 CC', '85.8 bhp', '114Nm@ 4000rpm', '5'),
@@ -1535,7 +1535,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Volvo V40 D3 R-Design', '2018', '2475000', '2000', 'Diesel', 'Dealer', 'Automatic', 'First Owner', '16.8 kmpl', '1984 CC', '150 bhp', '350Nm@ 1500-2750rpm', '5'),
 ('Volvo XC40 D4 R-Design', '2018', '3400000', '22000', 'Diesel', 'Dealer', 'Automatic', 'First Owner', '18.0 kmpl', '1969 CC', '190 bhp', '400Nm', '5'),
 ('Volvo XC40 D4 R-Design', '2018', '3400000', '22000', 'Diesel', 'Dealer', 'Automatic', 'First Owner', '18.0 kmpl', '1969 CC', '190 bhp', '400Nm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Volvo XC60 Inscription D5 BSIV', '2018', '5500000', '50000', 'Diesel', 'Individual', 'Automatic', 'First Owner', '11.2 kmpl', '1969 CC', '235 bhp', '480Nm', '5'),
 ('Audi A3 35 TDI Premium Plus', '2017', '2600000', '70000', 'Diesel', 'Individual', 'Automatic', 'First Owner', '20.38 kmpl', '1968 CC', '143 bhp', '320Nm@ 1750-3000rpm', '5'),
 ('Audi A3 40 TFSI Premium', '2017', '1689999', '8000', 'Petrol', 'Dealer', 'Automatic', 'First Owner', '16.6 kmpl', '1798 CC', '177.5 bhp', '250Nm@ 1250-5000rpm', '5'),
@@ -1831,7 +1831,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Hyundai i20 2015-2017 Asta Option 1.4 CRDi', '2017', '780000', '28000', 'Diesel', 'Individual', 'Manual', 'First Owner', '22.54 kmpl', '1396 CC', '88.73 bhp', '219.7Nm@ 1500-2750rp', '5'),
 ('Hyundai i20 2015-2017 Magna 1.2', '2017', '600000', '30000', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 2015-2017 Magna 1.2', '2017', '570000', '28782', 'Petrol', 'Dealer', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Hyundai i20 2015-2017 Magna 1.4 CRDi', '2017', '575000', '70000', 'Diesel', 'Individual', 'Manual', 'Second Owner', '22.54 kmpl', '1396 CC', '88.73 bhp', '219.7Nm@ 1500-2750rp', '5'),
 ('Hyundai i20 2015-2017 Sportz 1.2', '2017', '440000', '50000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
 ('Hyundai i20 2015-2017 Sportz 1.2', '2017', '625000', '23511', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.6 kmpl', '1197 CC', '81.83 bhp', '114.7Nm@ 4000rpm', '5'),
@@ -2125,7 +2125,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Maruti Celerio ZXI Optional', '2017', '421000', '59500', 'Petrol', 'Individual', 'Manual', 'Second Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio ZXI Optional', '2017', '483000', '15000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio ZXI Optional', '2017', '483000', '15000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Maruti Ciaz 1.3 Alpha', '2017', '800000', '37000', 'Diesel', 'Individual', 'Manual', 'First Owner', '28.09 kmpl', '1248 CC', '88.5 bhp', '200Nm@ 1750rpm', '5'),
 ('Maruti Ciaz 1.3 Alpha', '2017', '650000', '78000', 'Diesel', 'Individual', 'Manual', 'Third Owner', '28.09 kmpl', '1248 CC', '88.5 bhp', '200Nm@ 1750rpm', '5'),
 ('Maruti Ciaz 1.3 Alpha', '2017', '800000', '28050', 'Diesel', 'Dealer', 'Manual', 'First Owner', '28.09 kmpl', '1248 CC', '88.5 bhp', '200Nm@ 1750rpm', '5'),
@@ -2427,7 +2427,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Tata Indigo CS LX (TDI) BS-III', '2017', '450000', '70000', 'Diesel', 'Individual', 'Manual', 'First Owner', '19.09 kmpl', '1405 CC', '69.01 bhp', '135Nm@ 2500rpm', '5'),
 ('Tata Indigo CS LX (TDI) BS-III', '2017', '450000', '70000', 'Diesel', 'Individual', 'Manual', 'First Owner', '19.09 kmpl', '1405 CC', '69.01 bhp', '135Nm@ 2500rpm', '5'),
 ('Tata Nano XE', '2017', '66000', '70000', 'Petrol', 'Individual', 'Manual', 'Third Owner', '23.9 kmpl', '624 CC', '37.48 bhp', '51Nm@ 4000rpm', '4');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Tata Nexon 1.5 Revotorq XE', '2017', '665000', '25000', 'Diesel', 'Individual', 'Manual', 'First Owner', '21.5 kmpl', '1497 CC', '108.5 bhp', '260Nm@ 1500-2750rpm', '5'),
 ('Tata Nexon 1.5 Revotorq XZ Plus', '2017', '869999', '70000', 'Diesel', 'Individual', 'Manual', 'First Owner', '21.5 kmpl', '1497 CC', '108.5 bhp', '260Nm@ 1500-2750rpm', '5'),
 ('Tata Nexon 1.5 Revotorq XZ Plus', '2017', '830000', '35000', 'Diesel', 'Individual', 'Manual', 'First Owner', '21.5 kmpl', '1497 CC', '108.5 bhp', '260Nm@ 1500-2750rpm', '5'),
@@ -2725,7 +2725,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Hyundai Creta 1.6 CRDi Anniversary Edition', '2016', '819999', '39000', 'Diesel', 'Dealer', 'Manual', 'First Owner', '19.67 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5'),
 ('Hyundai Creta 1.6 CRDi Anniversary Edition', '2016', '819999', '39000', 'Diesel', 'Dealer', 'Manual', 'First Owner', '19.67 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5'),
 ('Hyundai Creta 1.6 CRDi AT SX Plus', '2016', '1050000', '77150', 'Diesel', 'Dealer', 'Automatic', 'First Owner', '17.01 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Hyundai Creta 1.6 CRDi SX', '2016', '1140000', '50000', 'Diesel', 'Individual', 'Manual', 'First Owner', '19.67 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5'),
 ('Hyundai Creta 1.6 CRDi SX', '2016', '850000', '58000', 'Diesel', 'Individual', 'Manual', 'First Owner', '19.67 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5'),
 ('Hyundai Creta 1.6 CRDi SX', '2016', '850000', '58000', 'Diesel', 'Individual', 'Manual', 'First Owner', '19.67 kmpl', '1582 CC', '126.2 bhp', '259.9Nm@ 1900-2750rp', '5'),
@@ -3022,7 +3022,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Maruti Celerio VXI', '2016', '351000', '60000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio VXI', '2016', '400000', '25000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio VXI', '2016', '411000', '25000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Maruti Celerio ZXI', '2016', '459999', '27000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio ZXI AT', '2016', '400000', '35000', 'Petrol', 'Individual', 'Automatic', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
 ('Maruti Celerio ZXI AT', '2016', '350000', '17000', 'Petrol', 'Individual', 'Automatic', 'First Owner', '23.1 kmpl', '998 CC', '67.04 bhp', '90Nm@ 3500rpm', '5'),
@@ -3324,7 +3324,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Tata Tiago 1.2 Revotron XM', '2016', '350000', '30000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.84 kmpl', '1199 CC', '84 bhp', '114Nm@ 3500rpm', '5'),
 ('Tata Tiago 1.2 Revotron XT', '2016', '350000', '30000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.84 kmpl', '1199 CC', '84 bhp', '114Nm@ 3500rpm', '5'),
 ('Tata Tiago 1.2 Revotron XZ', '2016', '350000', '15000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.84 kmpl', '1199 CC', '84 bhp', '114Nm@ 3500rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Tata Tiago 1.2 Revotron XZ', '2016', '399000', '40000', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.84 kmpl', '1199 CC', '84 bhp', '114Nm@ 3500rpm', '5'),
 ('Tata Tiago 1.2 Revotron XZ', '2016', '425000', '13500', 'Petrol', 'Individual', 'Manual', 'First Owner', '23.84 kmpl', '1199 CC', '84 bhp', '114Nm@ 3500rpm', '5'),
 ('Tata Zest Quadrajet 1.3 75PS XM', '2016', '320000', '120000', 'Diesel', 'Individual', 'Manual', 'First Owner', '22.95 kmpl', '1248 CC', '74 bhp', '190Nm@ 1750-3000rpm', '5'),
@@ -3616,7 +3616,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Hyundai Grand i10 CRDi Sportz', '2015', '425000', '91500', 'Diesel', 'Individual', 'Manual', 'Second Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5'),
 ('Hyundai Grand i10 CRDi Sportz', '2015', '345000', '60000', 'Diesel', 'Individual', 'Manual', 'First Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5'),
 ('Hyundai Grand i10 CRDi Sportz', '2015', '450000', '53000', 'Diesel', 'Individual', 'Manual', 'First Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Hyundai Grand i10 CRDi Sportz', '2015', '310000', '60000', 'Diesel', 'Individual', 'Manual', 'Fourth & Above Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5'),
 ('Hyundai Grand i10 CRDi Sportz', '2015', '370000', '60000', 'Diesel', 'Individual', 'Manual', 'First Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5'),
 ('Hyundai Grand i10 CRDi Sportz', '2015', '450000', '53000', 'Diesel', 'Individual', 'Manual', 'First Owner', '24.0 kmpl', '1120 CC', '70 bhp', '160Nm@ 1500-2750rpm', '5'),
@@ -3917,7 +3917,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Maruti Ertiga ZXI', '2015', '650000', '60000', 'Petrol', 'Individual', 'Manual', 'First Owner', '16.02 kmpl', '1373 CC', '93.7 bhp', '130Nm@ 4000rpm', '7'),
 ('Maruti Omni MPI STD BSIV', '2015', '180000', '25000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '16.8 kmpl', '796 CC', '34.2 bhp', '59Nm@ 2500rpm', '5'),
 ('Maruti Ritz LXi', '2015', '300000', '80000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '18.5 kmpl', '1197 CC', '85.80 bhp', '114Nm@ 4000rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Maruti Ritz VDi', '2015', '350000', '90000', 'Diesel', 'Individual', 'Manual', 'First Owner', '23.2 kmpl', '1248 CC', '73.94 bhp', '190Nm@ 2000rpm', '5'),
 ('Maruti Ritz VXi', '2015', '350000', '58500', 'Petrol', 'Individual', 'Manual', 'First Owner', '18.5 kmpl', '1197 CC', '85.80 bhp', '114Nm@ 4000rpm', '5'),
 ('Maruti Swift Dzire LDI', '2015', '370000', '170000', 'Diesel', 'Individual', 'Manual', 'First Owner', '26.59 kmpl', '1248 CC', '74 bhp', '190Nm@ 2000rpm', '5'),
@@ -4214,7 +4214,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Chevrolet Enjoy Petrol LS 7 Seater', '2014', '312000', '80000', 'Petrol', 'Individual', 'Manual', 'First Owner', '13.7 kmpl', '1399 CC', '98.82 bhp', '131Nm@ 4400rpm', '7'),
 ('Chevrolet Enjoy TCDi LS 8 Seater', '2014', '190000', '139000', 'Diesel', 'Individual', 'Manual', 'Second Owner', '18.2 kmpl', '1248 CC', '73.8 bhp', '172.5Nm@ 1750rpm', '8'),
 ('Chevrolet Enjoy TCDi LS 8 Seater', '2014', '350000', '50000', 'Diesel', 'Individual', 'Manual', 'Fourth & Above Owner', '18.2 kmpl', '1248 CC', '73.8 bhp', '172.5Nm@ 1750rpm', '8');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Chevrolet Enjoy TCDi LS 8 Seater', '2014', '350000', '120000', 'Diesel', 'Individual', 'Manual', 'Second Owner', '18.2 kmpl', '1248 CC', '73.8 bhp', '172.5Nm@ 1750rpm', '8'),
 ('Chevrolet Enjoy TCDi LT 7 Seater', '2014', '275000', '195000', 'Diesel', 'Individual', 'Manual', 'First Owner', '18.2 kmpl', '1248 CC', '73.8 bhp', '172.5Nm@ 1750rpm', '7'),
 ('Chevrolet Enjoy TCDi LTZ 7 Seater', '2014', '450000', '80000', 'Diesel', 'Individual', 'Manual', 'Second Owner', '18.2 kmpl', '1248 CC', '73.8 bhp', '172.5Nm@ 1750rpm', '7'),
@@ -4511,7 +4511,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Mahindra Xylo D2 BSIV', '2014', '395000', '140000', 'Diesel', 'Individual', 'Manual', 'First Owner', '14.0 kmpl', '2489 CC', '95 bhp', '220Nm at 1400-2600 r', '8'),
 ('Mahindra Xylo D2 BSIV', '2014', '395000', '140000', 'Diesel', 'Individual', 'Manual', 'First Owner', '14.0 kmpl', '2489 CC', '95 bhp', '220Nm at 1400-2600 r', '8'),
 ('Mahindra Xylo D4', '2014', '310000', '160000', 'Diesel', 'Individual', 'Manual', 'First Owner', '14.95 kmpl', '2489 CC', '93.7 bhp', '218Nm@ 1400-2600rpm', '7');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Mahindra Xylo D4', '2014', '320000', '120000', 'Diesel', 'Individual', 'Manual', 'First Owner', '14.95 kmpl', '2489 CC', '93.7 bhp', '218Nm@ 1400-2600rpm', '7'),
 ('Mahindra Xylo D4', '2014', '445000', '120000', 'Diesel', 'Individual', 'Manual', 'Second Owner', '14.95 kmpl', '2489 CC', '93.7 bhp', '218Nm@ 1400-2600rpm', '7'),
 ('Mahindra Xylo E4 BS III', '2014', '390000', '78000', 'Diesel', 'Individual', 'Manual', 'First Owner', '11.68 kmpl', '2498 CC', '112 bhp', '260Nm@ 1800-2200rpm', '7'),
@@ -4814,7 +4814,7 @@ INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `selle
 ('Volkswagen Polo GT TSI BSIV', '2014', '574000', '28080', 'Petrol', 'Dealer', 'Automatic', 'First Owner', '0.0 kmpl', '1197 CC', '103.25 bhp', '175nm@ 1500-4100rpm', '5'),
 ('Volkswagen Polo GT TSI BSIV', '2014', '575000', '28100', 'Petrol', 'Dealer', 'Automatic', 'First Owner', '0.0 kmpl', '1197 CC', '103.25 bhp', '175nm@ 1500-4100rpm', '5'),
 ('Volkswagen Vento 1.5 TDI Highline', '2014', '565000', '111000', 'Diesel', 'Individual', 'Manual', 'First Owner', '20.34 kmpl', '1498 CC', '103.2 bhp', '250Nm@ 1500-2500rpm', '5');
-INSERT INTO `cars` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
+INSERT INTO `car_dekho` (`name`, `year`, `selling_price`, `km_driven`, `fuel`, `seller_type`, `transmission`, `owner`, `mileage`, `engine`, `max_power`, `torque`, `seats`) VALUES
 ('Volkswagen Vento 1.5 TDI Highline AT', '2014', '411000', '90000', 'Diesel', 'Individual', 'Automatic', 'Second Owner', '21.21 kmpl', '1498 CC', '103.2 bhp', '250Nm@ 1500-2500rpm', '5'),
 ('Volkswagen Vento 1.5 TDI Highline AT', '2014', '411000', '90000', 'Diesel', 'Individual', 'Automatic', 'Second Owner', '21.21 kmpl', '1498 CC', '103.2 bhp', '250Nm@ 1500-2500rpm', '5'),
 ('Volkswagen Vento 1.6 Highline', '2014', '500000', '70000', 'Petrol', 'Individual', 'Manual', 'Second Owner', '15.04 kmpl', '1598 CC', '103.2 bhp', '153Nm@ 3800rpm', '5'),
